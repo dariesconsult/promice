@@ -20,13 +20,17 @@ To use promice in your website, simply drop the promice.css and promice.js into 
   1. BACKGROUND CLASSES: "bg-red", "bg-white", "bg-blue", "bg-yellow", "bg-pink", "bg-green", "bg-purple", "bg-brown", "bg-black", "bg-orange".
 
   2. TEXT CLASSES:  "text-red", "text-white", "text-blue", "text-yellow", "text-pink", "text-green", "text-purple", "text-brown", "text-black", "text-orange".
+  
+  3. BACKGROUND HOVER CLASSES: "hover:bg-red", "hover:bg-white", "hover:bg-blue", "hover:bg-yellow", "hover:bg-pink", "hover:bg-green", "hover:bg-purple", "hover:bg-brown", "hover:bg-black", "hover:bg-orange".
+  
+  4. TEXT HOVER CLASSES: "hover:text-red", "hover:text-white", "hover:text-blue", "hover:text-yellow", "hover:text-pink", "hover:text-green", "hover:text-purple", "hover:text-brown", "hover:text-black", "hover:text-orange".
 
   TEXT SIZES
   simply add the preferred class size; "text-small", "text-medium", "text-large"
 
   TEXT PADDING
   To adding padding simply add your preferred class. the numbers at the end of the class name = the size of the padding in px.
-  Classes: "padding-10", "padding-15", "padding-20", "padding-25", "padding-30".
+  Classes: "padding-0", "padding-10", "padding-15", "padding-20", "padding-25", "padding-30".
 
   TEXT ALIGN
   Align classes: "text-center", "text-left", "text-right"
@@ -34,10 +38,10 @@ To use promice in your website, simply drop the promice.css and promice.js into 
   DIV ALIGN
   Align classes: "div-left", "div-right", "div-center"
 
-  ALIGN TWO DIV IN ONE CONTAINER DIV
-  To align two divs in one container simply add the class "showcase" to the container div
-  Secondly, add the class "showcase-left" to the first child div of the parent container and the class "showcase-right" to the second child of the parent container.
-
+  TO PUT MULTIPLE DIVS IN ONE CONTAINER DIV
+  1. To align multiple divs in one container simply add the class "showcase" to the container div.
+  2. Add the class "showcase-div" to the children div of the parent.
+  
   Exception: If you don't want parent container padding simply add the class "Full-showcase"
 
   BLOCK ATTRIBUTE
