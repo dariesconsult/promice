@@ -20,10 +20,6 @@ To use promice in your website, simply drop the promice.css and promice.js into 
   1. BACKGROUND CLASSES: "bg-red", "bg-white", "bg-blue", "bg-yellow", "bg-pink", "bg-green", "bg-purple", "bg-brown", "bg-black", "bg-orange".
 
   2. TEXT CLASSES:  "text-red", "text-white", "text-blue", "text-yellow", "text-pink", "text-green", "text-purple", "text-brown", "text-black", "text-orange".
-  
-  3. BACKGROUND HOVER CLASSES: "hover:bg-red", "hover:bg-white", "hover:bg-blue", "hover:bg-yellow", "hover:bg-pink", "hover:bg-green", "hover:bg-purple", "hover:bg-brown", "hover:bg-black", "hover:bg-orange".
-  
-  4. TEXT HOVER CLASSES: "hover:text-red", "hover:text-white", "hover:text-blue", "hover:text-yellow", "hover:text-pink", "hover:text-green", "hover:text-purple", "hover:text-brown", "hover:text-black", "hover:text-orange".
 
   TEXT SIZES
   simply add the preferred class size; "text-small", "text-medium", "text-large"
